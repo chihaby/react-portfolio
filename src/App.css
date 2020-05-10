@@ -1,13 +1,6 @@
-.header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color:#f8f4f4;
   text-align: center;
   position: fixed;
   top: 0;
@@ -73,11 +66,13 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  border-radius: 4%;
 }
 
 .banner-text {
-  background-color: black;
+  background-color: #112247;
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -113,4 +108,12 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.about-me {
+  margin: 5vh;
+}
+
+.pdf {
+  text-align: center;
 }
