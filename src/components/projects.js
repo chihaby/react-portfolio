@@ -7,6 +7,7 @@ import marketplace from '../assets/marketplace.jpeg';
 import athenation from '../assets/athenation.jpeg';
 import carpool from '../assets/carpool.jpeg';
 import shoppingList from '../assets/shoppingList.png';
+import dogs from '../assets/dogs.jpeg';
 
 class Projects extends Component {
   constructor(props) {
@@ -80,6 +81,17 @@ class Projects extends Component {
               <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=SUr68YFo_rI">Demo</a>
             </CardActions>
           </Card>
+
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <h4>Pet Finder</h4>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${dogs})`}} ></CardTitle>
+            <CardText>
+              Web app containing a search list of most dog breeds
+            </CardText>
+            <CardActions border>
+              <a target="_blank" rel="noopener noreferrer" href=" https://chihaby.github.io/puppy-finder/">Demo</a>
+            </CardActions>
+          </Card>
         </div>
       )
     } else if(this.state.activeTab === 2) {
@@ -108,15 +120,7 @@ class Projects extends Component {
           </Card>
         </div>
       )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div>
-          <h5>dog api</h5>
-          <h5>Mern Shopping list https://intense-ocean-86370.herokuapp.com/</h5>
-        </div>
-      )
-    }
-
+    } 
   }
 
 
@@ -128,7 +132,6 @@ class Projects extends Component {
           <Tab>Social</Tab>
           <Tab>Business</Tab>
           <Tab>Personal</Tab>
-          <Tab>More</Tab>
         </Tabs>
 
           <Grid>
