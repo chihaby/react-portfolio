@@ -78,7 +78,7 @@ class Projects extends Component {
             Carpool UI. Drivers and riders create profiles and based on their geo location and destination these two are paired as a selection. Featured with Spotify API for sharing musical taste.
             </CardText>
             <CardActions border>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=SUr68YFo_rI">Demo</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=SUr68YFo_rI">Video</a>
             </CardActions>
           </Card>
 
@@ -112,7 +112,7 @@ class Projects extends Component {
             <h4>Shopping List</h4>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${shoppingList})`}} ></CardTitle>
             <CardText>
-              Shopping List, adds and delete items as completed.
+              MERN Shopping List, add and delete items as completed.
             </CardText>
             <CardActions border>
               <a target="_blank" rel="noopener noreferrer" href="https://intense-ocean-86370.herokuapp.com/">Demo</a>

@@ -111,7 +111,12 @@
 }
 
 .about-me {
-  margin: 5vh;
+  margin: 10vh;
+  padding: 50px;
+  background-color: lightgray;
+  height: 100%;
+  width: auto;
+
 }
 
 .pdf {
