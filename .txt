@@ -1,1 +1,5 @@
-get rid of react favicon
+To deploy
+-> gcloud app deploy
+
+npm run local for starting 
+
